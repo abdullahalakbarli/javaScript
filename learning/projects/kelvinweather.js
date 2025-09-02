@@ -1,7 +1,7 @@
-//variable named kelvin, and equal to 333 (program work for any Kelvin temperature)
+// variable named kelvin, and equal to 293
 const kelvin = 333;
-//variable named celsius
+// subtract 273 from kelvin to get celsius
 let celsius = kelvin - 273;
-//variable named fahrenheit
+// convert celsius to fahrenheit and round down
 let fahrenheit = Math.floor(celsius * (9/5) + 32);
-console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
