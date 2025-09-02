@@ -11,7 +11,7 @@ Build small, hands-on examples for practice.
 
 📂 Contents
 
-learning/ → JavaScript Fundamentals
+learning/ → JavaScript Fundamentals\n
 dom/ → Working with HTML elements, events, and the DOM.
 xss/ → Simple payloads and examples for learning.
 notes/ → Short notes & snippets about security and JS tricks.
