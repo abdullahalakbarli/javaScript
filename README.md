@@ -1,17 +1,24 @@
-# javaScript
-Exploring JavaScript through a cybersecurity lens – DOM, events, and XSS payloads.
+# JavaScript for Cybersecurity
 
-JavaScript for Cybersecurity
-A personal learning repository where I explore JavaScript fundamentals with a focus on cybersecurity concepts like XSS, DOM manipulation, events, and browser APIs.
+Exploring JavaScript through a **cybersecurity lens** – focusing on DOM, events, and XSS payloads.
 
-📌 Goals
-Strengthen my JavaScript knowledge.
-Understand how web security vulnerabilities (like XSS) work.
-Build small, hands-on examples for practice.
+A personal learning repository where I explore JavaScript fundamentals with a focus on cybersecurity concepts like **XSS**, **DOM manipulation**, **events**, and **browser APIs**.
 
-📂 Contents
+---
 
-learning/ → JavaScript Fundamentals\n
-dom/ → Working with HTML elements, events, and the DOM.
-xss/ → Simple payloads and examples for learning.
-notes/ → Short notes & snippets about security and JS tricks.
+## 📌 Goals
+- Strengthen my JavaScript knowledge.  
+- Understand how web security vulnerabilities (like **XSS**) work.  
+- Build small, hands-on examples for practice.  
+
+---
+
+## 📂 Contents
+- `learning/` → JavaScript fundamentals  
+- `dom/` → Working with HTML elements, events, and the DOM  
+- `xss/` → Simple payloads and examples for learning  
+- `notes/` → Short notes & snippets about security and JS tricks  
+
+---
+
+> **Note:** This repository is for **learning and educational purposes only**. Use responsibly and never test on systems without permission.
