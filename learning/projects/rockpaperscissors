@@ -1,0 +1,46 @@
+let userInput = 'bomb';
+const getUserChoice = function(userInput){
+  userInput = userInput.toLowerCase();
+  if (userInput === 'bomb' || userInput === 'rock' || userInput === 'scissors' || userInput === 'paper'){
+    return userInput;
+  }
+  else{
+    console.log('Invalid input. Please provide a valid prompt');
+    return null;
+  }
+}
+const getComputerChoice = function(){
+  let computerInput = Math.floor(Math.random() * 3);
+  switch (computerInput){
+    case 0:
+      return 'rock';
+    case 1:
+      return 'scissors';
+    case 2:
+      return 'paper';
+  }
+}
+
+const determineWinner = function(userChoice, computerChoice){
+  if (userChoice === computerChoice){
+    console.log('tie');
+  }
+  else if ((userChoice === 'rock' && computerChoice ==='scissors') || (userChoice === 'scissors' && computerChoice ==='paper') || (userChoice === 'paper' && computerChoice ==='rock')){
+    console.log('User Wins!');
+  }
+  else if (userChoice === 'bomb'){
+    console.log('User Wins!');
+  }
+  else{
+    console.log('Computer Wins!');
+  }
+}
+
+const playGame = function(){
+  const userChoice = getUserChoice(userInput);
+  const computerChoice = getComputerChoice();
+  console.log(userChoice);
+  console.log(computerChoice);
+  determineWinner(userChoice, computerChoice);
+}
+playGame();
